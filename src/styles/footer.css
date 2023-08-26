@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer_container {
+  background: #202939;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  margin: 0 5px;
+  padding: 50px 60px;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.footer_logo {
+  margin-top: 20px;
+}
+
+.icon_wrapper {
+  background: #bfbfbf;
+  border-radius: 50%;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.footer_line {
+  display: block;
+  margin: 0 auto;
+  width: 87%;
+}
+
+.footer-siblings {
+  width: 400px;
+}
+
+.sib-one {
+  margin-left: 2px;
+}
+
+.sib-two {
+  padding: 0 50px;
+}
+
+.sib-three {
+  padding: 0 60px;
+}
+
+.button_footer {
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  background: #202939;
+  color: #fff;
+  padding: 0px 40px;
+  margin: 20px;
+}
+
+.footer-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 100px 10px 20px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.footer_copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.brand {
+  margin-left: -30px;
+}
+
+.footer-link-container {
+  margin: 30px 45px;
+}
+
+.footer-link {
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.copyright {
+  margin: 20px 35px;
+  color: #fff;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-siblings {
+    width: 100%;
+    margin: 0 -93px;
+  }
+
+  .footer_copyright {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sib-two {
+    padding: 0;
+  }
+
+  .sib-three {
+    padding: 0;
+  }
+
+  .footer-link-container {
+    display: none;
+  }
+
+  .link-container {
+    flex-direction: row;
+  }
+
+  .footer_line {
+    width: 100%;
+  }
+}

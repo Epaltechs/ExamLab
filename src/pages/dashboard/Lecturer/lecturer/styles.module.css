@@ -1,0 +1,234 @@
+
+
+.contentbox{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.examLogo{
+    padding: 10px;
+    position: relative;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.loginText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.formInput{
+    width: 100%;
+    /* margin-top: 50px; */
+}
+
+.inputBox{
+    margin-top: 15px;
+}
+.inputBox label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.inputBox input{
+    color: #8B8B8B;
+    width: 650px;
+    padding: 17px;
+    border-radius: 10px;
+    border: 1px solid #CFCFCF;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+
+.inputBox p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.inputBox p a{
+    text-decoration: none;
+    font-weight: 400;
+    color:#F59E0B;
+
+}
+
+.submit{
+    background-color: #F59E0B;
+    width: 522px;
+    padding: 17px;
+    border-radius: 10px;
+    border: 1px solid #CFCFCF;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.submitButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    /* align-items: center; */
+}
+
+.footerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.quicklinks{
+    display: flex;
+    flex-direction: row;
+}
+
+.quicklinks ul{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+}
+.quicklinks span{
+    width: 100%;
+    text-align: center;
+}
+
+.quicklinks span a{
+    text-decoration: none;
+    color: #CFCFCF;
+    width: 100%;
+    padding: auto;
+    text-align: center;
+    text-overflow: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: none;
+
+}
+.footerIcon{
+    margin-top: 15px;
+    margin-bottom: 15px
+
+}
+.icons{
+    background-color: #CFCFCF;
+    padding: 2px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    
+}
+
+.copyright p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CFCFCF;
+
+}
+
+
+/* Media query */
+@media (max-width: 1000px){
+
+    .formInput{
+        padding: 20px;
+    
+        }
+    .inputBox input{
+        width: 100%;
+    }
+
+    .formBox{
+        justify-content: none;
+        align-items: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .quicklinks span a{
+        text-decoration: none;
+        color: #CFCFCF;
+        width: 100%;
+        /* padding: auto; */
+        text-align: center;
+        text-overflow: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        text-transform: none;
+    
+    }
+    .submit{
+       
+        width: 100%;
+        
+    
+    }
+    .loginText{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 5px;
+        margin-top: none;
+    
+    }
+    .submitButton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+        /* align-items: center; */
+    }
+    .examLogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .inputBox p{
+        font-size: 12px;
+    }
+}

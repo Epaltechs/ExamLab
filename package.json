@@ -1,0 +1,23 @@
+{
+  "name": "examlabfrontendnew",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AUTO-LOUNGE/examLabFrontendNew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AUTO-LOUNGE/examLabFrontendNew/issues"
+  },
+  "homepage": "https://github.com/AUTO-LOUNGE/examLabFrontendNew#readme",
+  "dependencies": {
+    "react-scripts": "^2.1.3"
+  }
+}
